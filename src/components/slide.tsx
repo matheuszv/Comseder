@@ -15,10 +15,8 @@ export function Carousel(){
         pagination={{ clickable: true }}
         loop={true}
       >
-        <SwiperSlide><img src="image.png" alt="asdasd" /></SwiperSlide>
-        <SwiperSlide><img src="fundo.png" alt="sadsad" /></SwiperSlide>
-        <SwiperSlide><div>Slide 3</div></SwiperSlide>
-        <SwiperSlide><div>Slide 4</div></SwiperSlide>
+        <SwiperSlide><img src="./assets/image.png" alt="asdasd" /></SwiperSlide>
+        <SwiperSlide><img src="./assets/slide2.jpg" alt="sadsad" /></SwiperSlide>
       </Swiper>
     )
 }
