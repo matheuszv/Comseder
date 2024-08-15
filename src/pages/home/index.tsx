@@ -14,6 +14,7 @@ export function Home(){
             </div>
             <Cards img="blabla.png">Planos</Cards>
             <div className="w-full h-px bg-sky-400 my-8"/>
+            <p>aaaaaaaaaaa</p>
         </> 
     )
 }
