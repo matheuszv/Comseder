@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 
 export function App() {
   return (
-    <div className="bg-custom-image bg-cover bg-center bg-repeat h-screen">
+    <div className="bg-custom-image bg-cover bg-center bg-repeat-y h-screen">
       <Header/>
       <RouterProvider router={router} />
     </div>
