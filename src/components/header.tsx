@@ -1,7 +1,7 @@
 export function Header(){
     return (
             <div className="h-24 flex justify-between items-center bg-blue-950 px-8">
-                <img className="h-16" src="logo.png" alt="" />
+                <img className="h-16" src="./assets/logo.png" alt="" />
                 <div className="flex gap-4 text-sm text-blue-100 p-2">
                     <a className="text-center hover:font-bold" href="">HOME</a> <p className="text-zinc-500">|</p>
                     <a className="text-center hover:font-bold" href="">INSTITUCIONAL</a> <p className="text-zinc-500">|</p>
