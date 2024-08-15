@@ -4,16 +4,6 @@ import { Cards } from '../../components/cards.tsx';
 export function Home(){
     return(
         <>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
             <Carousel/>
             <div className="px-6 justify-center">
                 <div>Planos</div>
