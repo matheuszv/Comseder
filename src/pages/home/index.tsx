@@ -11,7 +11,7 @@ export function Home(){
                 <Cards img="blabla.png">Serviços On-line</Cards>
                 <Cards img="blabla.png">Guia Médico</Cards>
             </div>
-            <div className="w-full h-px bg-sky-400 my-8"/>
+            <div className="w-full h-px bg-sky-400 my-10"/>
             <p>aaaaaaaaaaa</p>
         </> 
     )
