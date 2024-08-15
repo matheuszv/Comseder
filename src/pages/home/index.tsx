@@ -10,7 +10,6 @@ export function Home(){
                 <Cards img="blabla.png">Ambulatórios</Cards>
                 <Cards img="blabla.png">Serviços On-line</Cards>
                 <Cards img="blabla.png">Guia Médico</Cards>
-                <Cards img="blabla.png">Recebimento de produção</Cards>
             </div>
             <div className="w-full h-px bg-sky-400 my-8"/>
             <p>aaaaaaaaaaa</p>
