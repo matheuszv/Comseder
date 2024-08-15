@@ -5,7 +5,7 @@ export function Home(){
     return(
         <>
             <Carousel/>
-            <div className="px-6 justify-around gap-8 flex-wrap flex py-6">
+            <div className="justify-center gap-x-20 gap-y-12 flex-wrap flex py-6">
                 <Cards img="blabla.png">Planos</Cards>
                 <Cards img="blabla.png">Ambulatórios</Cards>
                 <Cards img="blabla.png">Serviços On-line</Cards>
