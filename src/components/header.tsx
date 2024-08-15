@@ -1,16 +1,16 @@
 export function Header(){
     return (
-            <div className="h-24 flex justify-between items-center bg-sky-200 px-8">
+            <div className="h-24 flex justify-between items-center bg-blue-950 px-8">
                 <img className="h-16" src="./src/assets/logo.png" alt="" />
-                <div className="flex gap-4 text-lg text-sky-700 p-2">
-                    <a className="hover:text-sky-500" href="">HOME</a> |
-                    <a className="hover:text-sky-500" href="">INSTITUCIONAL</a> |
-                    <a className="hover:text-sky-500" href="">AMBULATÓRIO</a> |
-                    <a className="hover:text-sky-500" href="">PLANOS</a> |
-                    <a className="hover:text-sky-500" href="">SERVIÇOS</a> |
-                    <a className="hover:text-sky-500" href="">PRESTADOR</a> |
-                    <a className="hover:text-sky-500" href="">CONTATO</a> |
-                    <a className="hover:text-sky-500" href="">ANS</a>
+                <div className="flex gap-4 text-sm text-blue-100 p-2">
+                    <a className="text-center hover:font-bold" href="">HOME</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">INSTITUCIONAL</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">AMBULATÓRIO</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">PLANOS</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">SERVIÇOS</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">PRESTADOR</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">CONTATO</a> <p className="text-zinc-500">|</p>
+                    <a className="text-center hover:font-bold" href="">ANS</a>
                 </div>
             </div>
     )
