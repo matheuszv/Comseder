@@ -7,7 +7,7 @@ interface Cards{
 
 export function Cards({children}:Cards){
     return(
-        <div className="h-32 w-32 border-sky-400 border p-4 justify-center items-center flex flex-col rounded-3xl text-sky-400 font-semibold bg-white">
+        <div className="h-40 w-40 p-4 justify-center items-center flex flex-col rounded-3xl cursor-pointer font-semibold">
             <User size={30}/>
             {children}
         </div>

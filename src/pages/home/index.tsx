@@ -5,14 +5,13 @@ export function Home(){
     return(
         <>
             <Carousel/>
-            <div className="px-6 justify-center">
-                <div>Planos</div>
-                <div>Ambulatórios</div>
-                <div>Serviços Online</div>
-                <div>Guia Médico</div>
-                <div>Recebimento de Produção</div>
+            <div className="px-6 justify-around gap-8 flex-wrap flex py-6">
+                <Cards img="blabla.png">Planos</Cards>
+                <Cards img="blabla.png">Ambulatórios</Cards>
+                <Cards img="blabla.png">Serviços On-line</Cards>
+                <Cards img="blabla.png">Guia Médico</Cards>
+                <Cards img="blabla.png">Recebimento de produção</Cards>
             </div>
-            <Cards img="blabla.png">Planos</Cards>
             <div className="w-full h-px bg-sky-400 my-8"/>
             <p>aaaaaaaaaaa</p>
         </> 
