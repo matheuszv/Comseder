@@ -1,5 +1,7 @@
+import { Carousel } from '../../components/slide.tsx';
+
 export function Home(){
     return(
-        <h1>Hello Home</h1>
+        <Carousel/>
     )
 }
