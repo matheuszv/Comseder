@@ -29,8 +29,9 @@ export function Home(){
             </div>
 
             <div className="justify-center flex flex-col my-6 items-center">
-                <h3 className="text-zinc-800 font-bold text-3xl pb-8">Comunicados</h3>
-                <div className="justify-around items-center flex gap-8 px-10">
+                <h3 className="text-zinc-800 font-bold text-3xl pb-2">Comunicados</h3>
+                <span className="text-sky-500 text-sm hover:text-sky-700 hover:underline h-7"><a href="#">Ver mais comunicados</a></span>
+                <div className="justify-around items-center flex gap-10 px-10 mt-8">
                     <Comunicados/>
                     <Comunicados/>
                     <Comunicados/>
