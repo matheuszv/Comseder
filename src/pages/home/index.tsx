@@ -22,6 +22,10 @@ export function Home(){
                 <p className="text-zinc-600 italic">Juntos somos mais fortes</p>
                 <VideoPlayer />
             </div>
+
+            <div>
+                Comunicados
+            </div>
             
         </> 
     )
