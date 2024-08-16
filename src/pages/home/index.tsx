@@ -13,11 +13,9 @@ export function Home(){
                 <Cards img="blabla.png">Guia Médico</Cards>
             </div>
 
-            <div className="w-full h-px bg-sky-400"/>
-
             <div className="flex flex-col items-center justify-center my-12">
                 <h3 className="text-zinc-800 font-bold text-xl">
-                    <span className="text-sky-500">COMSEDER </span>
+                    <span className="text-sky-600">COMSEDER </span>
                     FILIADA A 
                     <span className="text-blue-800"> UNIDAS</span>
                 </h3>
