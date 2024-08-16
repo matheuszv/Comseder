@@ -33,7 +33,10 @@ module.exports = {
       },
       backgroundImage: {
         'custom-image': "url('fundo.png')",
-      }
+      },
+      screens: {
+        'mxl': '1000px',
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
