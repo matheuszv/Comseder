@@ -1,6 +1,7 @@
 import { Carousel } from '../../components/slide.tsx';
 import { Cards } from '../../components/cards.tsx';
 import { VideoPlayer } from '../../components/videos.tsx';
+import { Comunicados } from '../../components/comunicados.tsx';
 
 export function Home(){
     return(
@@ -23,8 +24,17 @@ export function Home(){
                 <VideoPlayer />
             </div>
 
-            <div>
-                Comunicados
+            <div className="px-56">
+                <div className="h-px w-full bg-sky-300"/>
+            </div>
+
+            <div className="justify-center flex flex-col my-6 items-center">
+                <h3 className="text-zinc-800 font-bold text-3xl pb-8">Comunicados</h3>
+                <div className="justify-around items-center flex gap-8 px-10">
+                    <Comunicados/>
+                    <Comunicados/>
+                    <Comunicados/>
+                </div>
             </div>
             
         </> 
