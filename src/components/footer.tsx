@@ -3,10 +3,10 @@ export function Footer(){
         <div className="py-8 border-t border-sky-500 justify-center items-center bg-sky-950">
             <div className="justify-center flex-wrap flex gap-4">
                 <a href="https://www.gov.br/ans/pt-br" target="_blank" className="rounded-md">
-                    <img src="public\assets\img_ans.png" alt="Ans" />
+                    <img src="assets\img_ans.png" alt="Ans" />
                 </a>
                 <a href="https://www.somos.coop.br/" target="_blank" className="rounded-md">
-                    <img src="public\assets\img_coop.png" alt="Somos Coop" />
+                    <img src="assets\img_coop.png" alt="Somos Coop" />
                 </a>
             </div>
             <div className="text-white flex flex-col py-8 justify-center text-sm">
