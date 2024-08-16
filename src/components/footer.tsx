@@ -1,7 +1,7 @@
 export function Footer(){
     return(
         <div className="py-8 border-t border-sky-500 justify-center items-center bg-sky-950">
-            <div className="justify-center flex-wrap flex gap-4 flex-wrap">
+            <div className="justify-center flex-wrap flex gap-4">
                 <a href="https://www.gov.br/ans/pt-br" target="_blank" className="rounded-md">
                     <img src="assets\img_ans.png" alt="Ans" />
                 </a>
