@@ -3,8 +3,8 @@ export function Header(){
             <div className="h-24 flex justify-between items-center bg-sky-950 px-10">
                 <img className="h-16 cursor-pointer" src="./assets/logo.png" alt="" />
                 <div className="flex text-sm text-blue-100">
-                    <a className="flex w-20 justify-center hover:font-bold" href="">HOME</a><span className="text-zinc-500">|</span>
-                    <a className="flex w-36 justify-center hover:font-bold" href="">INSTITUCIONAL</a><span className="text-zinc-500">|</span>
+                    <a className="flex w-20 justify-center hover:font-bold" href={`/`}>HOME</a><span className="text-zinc-500">|</span>
+                    <a className="flex w-36 justify-center hover:font-bold" href={`/institucional`}>INSTITUCIONAL</a><span className="text-zinc-500">|</span>
                     <a className="flex w-36 justify-center hover:font-bold" href="">AMBULATÓRIO</a><span className="text-zinc-500">|</span>
                     <a className="flex w-24 justify-center hover:font-bold" href="">PLANOS</a><span className="text-zinc-500">|</span>
                     <a className="flex w-28 justify-center hover:font-bold" href="">SERVIÇOS</a><span className="text-zinc-500">|</span>
