@@ -8,7 +8,7 @@ export function Home(){
     return(
         <>
             <Carousel/>
-            <div className="justify-center gap-x-20 gap-y-12 flex-wrap flex py-12">
+            <div className="justify-center gap-x-20 gap-y-12 flex-wrap flex py-12 max-mxl:gap-28">
                 <Cards img="blabla.png">Planos</Cards>
                 <Cards img="blabla.png">Ambulatórios</Cards>
                 <Cards img="blabla.png">Serviços On-line</Cards>
@@ -22,7 +22,7 @@ export function Home(){
                     <span className="text-blue-800"> UNIDAS</span>
                 </h3>
                 <p className="text-zinc-600 italic">Juntos somos mais fortes</p>
-                <VideoPlayer />
+                <VideoPlayer/>
             </div>
 
             <div className="px-56">

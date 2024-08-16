@@ -38,7 +38,7 @@ export function VideoPlayer() {
 
 
   return (
-    <div className="px-40 py-6">
+    <div className="px-40 py-6 max-mxl:px-0">
       <video controls autoPlay width="100%" ref={videoRef} loop className="shadow-xl">
         <source src={meuVideo} type="video/mp4"/>
         Seu navegador não suporta a tag de vídeo.
