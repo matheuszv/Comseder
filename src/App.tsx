@@ -34,7 +34,9 @@ export function App() {
   return (
     <div className="bg-custom-image bg-center bg-cover h-full">
       {menuIsVisible ? (
-        <ModalMenu/>
+        <ModalMenu
+          closeMenuModal={closeMenuModal}
+        />
       ) :
       (
         <Header 
