@@ -33,14 +33,12 @@ export function App() {
 
   return (
     <div className="bg-custom-image bg-center bg-cover h-full">
-      {menuIsVisible ? (
+      <Header 
+          openMenuModal={openMenuModal}
+        />
+      {menuIsVisible &&(
         <ModalMenu
           closeMenuModal={closeMenuModal}
-        />
-      ) :
-      (
-        <Header 
-          openMenuModal={openMenuModal}
         />
       )}
       
