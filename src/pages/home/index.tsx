@@ -25,7 +25,7 @@ export function Home(){
                 <VideoPlayer/>
             </div>
 
-            <div className="px-56">
+            <div className="px-56 max-md:px-10">
                 <div className="h-px w-full bg-sky-300"/>
             </div>
 
