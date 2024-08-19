@@ -12,12 +12,12 @@ export function Institucional(){
     return(
         <>    
         <h1 className="text-sky-900 font-bold text-3xl text-center p-12">INSTITUCIONAL</h1>    
-        <div className="flex gap-16 flex-wrap px-20">
+        <div className="flex gap-16 flex-wrap px-24">
             <div className="flex-1 space-y-8 bg-white px-8 mb-10 rounded-3xl">
                 <h2 className="text-sky-900 font-bold text-lg text-center px-12 pt-2">A COMSEDER</h2>
                 <p className="px-10 py-4"><RenderText/></p>
             </div>
-            <div className="w-96 space-y-6">Sidebar</div>
+            <div className="w-2/6 space-y-6">Sidebar</div>
         </div>
         </>
 
