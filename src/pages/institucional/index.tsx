@@ -19,7 +19,7 @@ export function Institucional(){
                 <h2 className="text-sky-900 font-bold text-lg text-center px-12 pt-2">A COMSEDER</h2>
                 <p className="px-10 py-4"><RenderText/></p>
             </div>
-            <div className="w-2/6 bg-sky-100 px-1/12">
+            <div className="w-2/6 bg-sky-100 px-1/12 mb-10">
                 <Acordeon
                 title="Diretoria"
                 content="bla"
