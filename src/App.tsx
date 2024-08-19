@@ -2,6 +2,7 @@ import { Home } from './pages/home/index'
 import { Institucional } from './pages/institucional/index'
 import { Header } from './components/header'
 import { ModalMenu } from './components/modalMenu';
+import { Footer } from './components/footer'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -43,6 +44,8 @@ export function App() {
       )}
       
       <RouterProvider router={router} />
+      
+      <Footer/>
     </div>
   )
 }

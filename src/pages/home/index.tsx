@@ -2,7 +2,6 @@ import { Carousel } from '../../components/slide.tsx';
 import { Cards } from '../../components/cards.tsx';
 import { VideoPlayer } from '../../components/videos.tsx';
 import { Comunicados } from '../../components/comunicados.tsx';
-import { Footer } from '../../components/footer.tsx';
 
 export function Home(){
     return(
@@ -38,8 +37,6 @@ export function Home(){
                     <Comunicados/>
                 </div>
             </div>
-
-            <Footer/>
             
         </> 
     )
