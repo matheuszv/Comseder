@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { ChevronDown } from "lucide-react"
 import { X } from "lucide-react"
+import { Download } from "lucide-react"
 
 interface Acordeon{
   title: string;
@@ -36,7 +37,11 @@ export function Acordeon({title, content}: Acordeon){
     }
       {isOpen && (
         <div className="border border-sky-600 bg-sky-100 px-3 text-zinc-800 py-2">
-          <RenderText/>
+          {title!="ESTATUTO" ? (<RenderText/>) : (
+            <a href="/assets/ESTATUTOAUTENTICADOPELAJUCEP.pdf" download className="flex items-center gap-2">
+             Estatuto <Download />
+          </a>
+          )}
         </div>
       )}
     </div>
