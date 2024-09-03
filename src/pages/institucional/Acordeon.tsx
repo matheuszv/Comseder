@@ -22,7 +22,7 @@ export function Acordeon({title, content}: Acordeon){
     };
 
   return (
-    <div className="flex flex-col rounded-lg text-sky-50 text-sm">
+    <div className="flex flex-col rounded-lg text-sky-50 text-sm hover:text-sky-400">
     {title=="DIRETORIA" ?
     (
       <div onClick={toggleAccordion} className="flex cursor-pointer bg-sky-900 justify-between items-center p-3 font-normal rounded-t-lg">
