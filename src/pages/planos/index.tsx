@@ -17,7 +17,7 @@ export function Planos(){
             <div className="flex-1 space-y-8 bg-white px-8 mb-10 rounded-3xl shadow-xl">
                 <h2 className="text-sky-900 font-bold text-lg text-center px-12 pt-2">Informações uteis</h2>
                 <div onClick={toggleAccordion} className="flex bg-sky-900 justify-between items-center p-3 font-normal rounded-md text-sky-50 flex-col">
-                    <div className="justify-between items-center cursor-pointer">
+                    <div className="justify-between items-center cursor-pointer flex flex-row">
                         <h3 className="text-sky-50 font-bold">Como aderir ou mudar o plano</h3>
                         {isOpen? (<X/>) : (<ChevronDown />)}
                     </div>
