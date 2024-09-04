@@ -8,7 +8,7 @@ export function Carousel() {
 
     return (
       <div>
-        <Swiper className="!flex !cursor-grab !rounded-2xl"
+        <Swiper className="!flex !cursor-grab !rounded-xl !h-60"
           slidesPerView={4}
           spaceBetween={10}
           centeredSlides={true}
