@@ -33,7 +33,7 @@ export function Planos(){
         <div className="flex flex-col">    
         <h1 className="text-sky-900 font-bold text-3xl text-center p-12">PLANOS</h1>    
         <div className="flex gap-16 px-24 flex-col">
-            <div className="px-40 py-12">        
+            <div className="px-32 py-12">        
                 <Carousel/>
             </div>
             <div className="flex space-y-8 bg-white px-8 mb-10 rounded-3xl shadow-xl flex-col">
