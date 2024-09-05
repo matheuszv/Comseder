@@ -13,12 +13,16 @@ export function Footer(){
                 <h4 className="text-center">COMSEDER - João Pessoa-PB</h4>
                 <p className="text-center">© 2024</p>
             </div>
-            <div className="text-white"></div>
+            
             <div className="text-white flex flex-col pb-8 justify-center text-sm">
                 <p className="text-center"><a href="#" className="hover:underline hover:text-sky-600">POLÍTICA DE PRIVACIDADE</a></p>
                 <p className="text-center text-xs text-zinc-400">Não armazenamos dados pessoais durante seu acesso ao nosso site.</p>
             </div>
-
+            <div className="text-white flex justify-center text-sm">
+                <p>
+                    Icones criados por <a href="https://www.flaticon.com/authors/freepik" className="hover:underline hover:text-sky-600 font-bold">Freepik</a> em <a href="www.flaticon.com" className="hover:underline hover:text-sky-600 font-bold">flaticon.com</a>
+                </p>
+            </div>
         </div>
     )
 }

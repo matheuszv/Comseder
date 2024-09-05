@@ -23,25 +23,25 @@ export function Carousel() {
           modules={[Autoplay, Navigation, Pagination]}
         >
                 <SwiperSlide>
-                    <Cards img="blabla.png">ANTIGO</Cards>
+                    <Cards img="assets/icone-antigo.png">ANTIGO</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="blabla.png">EXECUTIVO I</Cards>
+                    <Cards img="assets/icone-executivo.png">EXECUTIVO I</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="blabla.png">EXECUTIVO II</Cards>
+                    <Cards img="assets/icone-executivo-I.png">EXECUTIVO II</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="blabla.png">ESPECIAL I</Cards>
+                    <Cards img="assets/icone-estrela-cadente.png">ESPECIAL I</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="blabla.png">ESPECIAL II</Cards>
+                    <Cards img="assets/icone-estrela.png">ESPECIAL II</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="blabla.png">REFERENCIA I</Cards>
+                    <Cards img="assets/icone-distintivo.png">REFERENCIA I</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="blabla.png">REFERENCIA II</Cards>
+                    <Cards img="assets/icone-distintivo-I.png">REFERENCIA II</Cards>
                 </SwiperSlide>
         </Swiper>
       </div>
