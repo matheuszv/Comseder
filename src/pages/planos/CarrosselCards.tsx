@@ -38,10 +38,10 @@ export function Carousel() {
                     <Cards img="assets/icone-estrela.png">ESPECIAL II</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="assets/icone-distintivo.png">REFERENCIA I</Cards>
+                    <Cards img="assets/icone-distintivo.png">REFERÊNCIA I</Cards>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Cards img="assets/icone-distintivo-I.png">REFERENCIA II</Cards>
+                    <Cards img="assets/icone-distintivo-I.png">REFERÊNCIA II</Cards>
                 </SwiperSlide>
         </Swiper>
       </div>

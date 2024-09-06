@@ -17,7 +17,7 @@ export function Home(){
             <div className="flex flex-col items-center justify-center my-12">
                 <h3 className="text-zinc-800 font-bold text-xl">
                     <span className="text-sky-600">COMSEDER </span>
-                    FILIADA A 
+                    FILIADA À 
                     <span className="text-blue-800"> UNIDAS</span>
                 </h3>
                 <p className="text-zinc-600 italic">Juntos somos mais fortes</p>
