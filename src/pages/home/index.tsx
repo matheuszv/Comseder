@@ -8,10 +8,10 @@ export function Home(){
         <>
             <Carousel/>
             <div className="justify-center gap-x-20 gap-y-12 flex-wrap flex py-12 max-mxl:gap-28">
-                <Cards img="blabla.png">Planos</Cards>
-                <Cards img="blabla.png">Ambulatórios</Cards>
-                <Cards img="blabla.png">Serviços On-line</Cards>
-                <Cards img="blabla.png">Guia Médico</Cards>
+                <Cards img="assets/icone-planos.png">Planos</Cards>
+                <Cards img="assets/icone-ambulatorio.png">Ambulatórios</Cards>
+                <Cards img="assets/icone-servico-online.png">Serviços On-line</Cards>
+                <Cards img="assets/icone-guia-medico.png">Guia Médico</Cards>
             </div>
 
             <div className="flex flex-col items-center justify-center my-12">
