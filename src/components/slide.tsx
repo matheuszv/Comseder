@@ -12,7 +12,6 @@ export function Carousel(){
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        navigation
         modules={[Navigation, Pagination, Autoplay]}
         pagination={{ clickable: true }}
         loop={true}

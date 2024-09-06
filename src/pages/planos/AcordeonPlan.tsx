@@ -4,6 +4,7 @@ import { useState } from "react";
 interface AcordeonPlan{
     title: string;
     content: string;
+
 }
 
 export function AcordeonPlan({title, content}: AcordeonPlan){
