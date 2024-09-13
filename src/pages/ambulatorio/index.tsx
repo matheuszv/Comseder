@@ -14,8 +14,8 @@ export function Ambulatorio(){
 
     return (
         <div className="flex flex-col">    
-            <h1 className="text-sky-900 font-bold text-3xl text-center p-12">AMBULATÓRIOS</h1>    
-            <div className="flex gap-16 justify-center flex-col items-center">
+            <h1 className="text-sky-900 font-bold text-3xl text-center pt-12">AMBULATÓRIOS</h1>    
+            <div className="flex justify-center flex-col items-center">
                 <div ref={container}>
                     {projects.map( (project, index) => {
                         const targetScale = 1 - ((projects.length - index) * 0.05)
