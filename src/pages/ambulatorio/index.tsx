@@ -1,8 +1,7 @@
-import { ImagePack } from "./ImagePack"
 import { Cardzin } from "./cardzin"
 import { projects } from "./data"
-import { motion, useScroll, useTransform } from "framer-motion"
-import { useRef, useEffect } from "react"
+import { useScroll } from "framer-motion"
+import { useRef } from "react"
 
 export function Ambulatorio(){
     
