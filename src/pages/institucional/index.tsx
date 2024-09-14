@@ -37,13 +37,14 @@ export function Institucional(){
                 title="CONSELHO FISCAL"
                 content={admin}
                 />
-                <a href="/assets/ESTATUTOAUTENTICADOPELAJUCEP.pdf" className="m-12">
-                    <div className="p-8 w-48 justify-center items-center flex flex-col cursor-pointer border border-transparent font-semibold bg-sky-50 rounded-lg shadow-lg hover:border-sky-600 hover:border hover:text-sky-600">
-                        <Download />
-                        <h3 className="my-3">ESTATUTO</h3>
-                    </div>
-                </a>
-                
+                <div className="flex justify-center items-center p-8">
+                    <a href="/assets/ESTATUTOAUTENTICADOPELAJUCEP.pdf">
+                        <div className="p-8 w-48 justify-center items-center flex flex-col cursor-pointer border border-transparent font-semibold bg-sky-50 rounded-lg shadow-lg hover:border-sky-600 hover:border hover:text-sky-600">
+                            <Download />
+                            <h3 className="my-3">ESTATUTO</h3>
+                        </div>
+                    </a>
+                </div>
                 
             </div>
         </div>
