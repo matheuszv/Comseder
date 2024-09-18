@@ -15,11 +15,11 @@ export function Planos(){
     return (
         <div className="flex flex-col">    
             <h1 className="text-sky-900 font-bold text-3xl text-center p-12">PLANOS</h1>    
-            <div className="flex gap-16 px-56 flex-col">
+            <div className="flex gap-16 px-56 flex-col max-mxl:px-0">
                 <div className="py-12">        
                     <Carousel handleModal={handleModal}/>
                 </div>
-                <div className="flex bg-white mb-10 rounded-3xl shadow-xl flex-col px-20 py-8 gap-8">
+                <div className="flex bg-white mb-10 rounded-3xl shadow-xl flex-col px-20 py-8 gap-8 max-mxl:px-8">
                     <h2 className="text-sky-900 font-bold text-lg text-center pt-2">Informações úteis</h2>
                     <div className="flex flex-col rounded-xl gap-2">
                         <AcordeonPlan title="Como aderir ao plano" content={lorem}/>

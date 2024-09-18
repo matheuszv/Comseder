@@ -20,8 +20,8 @@ export function Carousel(){
           disableOnInteraction: true,
         }}
       >
-        <SwiperSlide><img src="./assets/image.png" alt="asdasd" /></SwiperSlide>
-        <SwiperSlide><img src="./assets/slide2.jpg" alt="sadsad" /></SwiperSlide>
+        <SwiperSlide><img className="max-mxl:h-[230px]" src="./assets/image.png" alt="asdasd" /></SwiperSlide>
+        <SwiperSlide><img className="max-mxl:h-[230px]" src="./assets/slide2.jpg" alt="sadsad" /></SwiperSlide>
       </Swiper>
     )
 }
