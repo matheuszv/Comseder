@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: "Ginecologia",
-      description: "Ea sapiente vitae id atque asperiores id iure alias id labore consectetur At nostrum sint ut ipsam dolor est cumque fugit. Nam temporibus dignissimos sed facilis nostrum est possimus quasi ut voluptatum autem rem eveniet voluptatem sit illo nostrum. Eos ratione dolorum ut temporibus fugiat aut praesentium iure ut illum impedit in quae ratione eum dolores aperiam. Id quae quia qui corrupti saepe hic reiciendis molestiae vel ipsa voluptatem ut dolores nesciunt ut harum voluptatem et voluptate libero.",
+      description: "Ea sapiente vitae id atque asperiores id iure alias id labore consectetur At nostrum sint ut ipsam dolor est cumque fugit. Nam temporibus dignissimos sed facilis nostrum est possimus quasi ut voluptatum autem rem eveniet voluptatem sit illo nostrum.",
       src: "assets/gineco.jpg",
       link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
       color: "#164e63"

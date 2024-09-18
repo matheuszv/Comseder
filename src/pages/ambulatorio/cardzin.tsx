@@ -41,11 +41,11 @@ export function Cardzin({title, description, src, color, i, progress, range, tar
     
     return (
        <div ref={container} className="h-screen flex items-center justify-center sticky top-0">
-            <motion.div style={{scale, backgroundColor: color, top: `calc(-10% + ${i*25}px)`}} className="w-[1000px] h-[400px] relative -top-[10%] rounded-3xl flex flex-col items-center gap-8 pt-8">
+            <motion.div style={{scale, backgroundColor: color, top: `calc(-10% + ${i*25}px)`}} className="w-[1000px] h-[400px] relative -top-[10%] rounded-3xl flex flex-col items-center gap-8 pt-8 max-mxl:w-[360px] max-mxl:h-[480px]">
                 <h3 className="font-bold text-xl text-white">{title}</h3>
-                <div className="flex justify-around px-8 gap-4">
+                <div className="flex justify-around px-8 gap-4 max-mxl:flex-col">
                     <p className="flex-1 text-white">{description}</p>
-                    <div className="h-[250px] w-[400px] overflow-hidden">
+                    <div className="h-[250px] w-[400px] overflow-hidden max-mxl:h-[160px] max-mxl:w-[340px]">
                         <motion.div style={{scale: imageScale}} className="flex rounded-lg overflow-hidden ">
                             <img src={src} alt="imagem"/>
                         </motion.div>
