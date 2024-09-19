@@ -12,7 +12,7 @@ export function ModalComunicados({handleModal}:ModalComunicados){
                 <h2 className="font-bold text-lg">Título do Comunicado</h2>
                 <X onClick={handleModal} className="cursor-pointer"/>
             </div>
-            <p className="max-mxl:text-sm overflow-scroll h-[450px]">
+            <p className="max-mxl:text-sm overflow-y-scroll h-[450px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sint rem consequuntur natus, omnis nihil nemo aut voluptatem architecto? Ullam ex soluta consequatur obcaecati sed iure fugit aut, omnis nisi?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, sed. Doloremque praesentium natus vero facilis eligendi recusandae, reiciendis, voluptas architecto voluptatum omnis, ut velit ad modi nisi officia assumenda ullam.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sed architecto tenetur perferendis, eveniet deserunt iusto! Molestiae, tenetur unde necessitatibus ipsa accusamus consequatur aliquid exercitationem quis velit labore odit ea.
@@ -27,7 +27,7 @@ export function ModalComunicados({handleModal}:ModalComunicados){
             </p>           
             <span className="justify-center pt-3 items-center gap-2 text-sky-600 flex border-t border-sky-600">
                 <Clock size={16}/>
-                {parseInt(String(Math.random()*21))} de janeiro de 2024
+                0 de janeiro de 2024
             </span> 
           </div>
         </div>

@@ -9,7 +9,6 @@ interface Carousel{
 }
 
 export function Carousel({handleModal}:Carousel) {
-
     return (
       <div>
         <Swiper className="!flex !cursor-grab !rounded-xl !h-60"
