@@ -10,11 +10,11 @@ export function ModalMenu({closeMenuModal}: ModalMenu){
                 <button onClick={closeMenuModal}><X/></button>
                     <a className="hover:font-bold" href={`/`}>HOME</a>
                     <a className="hover:font-bold" href={`/institucional`}>INSTITUCIONAL</a>
-                    <a className="hover:font-bold" href="">AMBULATÓRIO</a>
-                    <a className="hover:font-bold" href="">PLANOS</a>
+                    <a className="hover:font-bold" href={`/ambulatorios`}>AMBULATÓRIO</a>
+                    <a className="hover:font-bold" href={`/planos`}>PLANOS</a>
                     <a className="hover:font-bold" href="">SERVIÇOS</a>
-                    <a className="hover:font-bold" href="">PRESTADOR</a>
-                    <a className="hover:font-bold" href="">CONTATO</a>
+                    <a className="hover:font-bold" href={`/comunicados`}>COMUNICADOS</a>
+                    <a className="hover:font-bold" href={`/contato`}>CONTATO</a>
                     <a className="hover:font-bold" href="">ANS</a>
             </div>
         </div>

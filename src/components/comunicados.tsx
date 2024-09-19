@@ -7,7 +7,7 @@ export function Comunicados(){
                 <h4 className="text-sky-950 text-xl text-left py-3 font-semibold">Título do comunicado</h4>
                 <p className="text-sky-800 text-base pb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis tempora facilis eligendi cum esse, 
                 aperiam doloribus soluta at architecto id delectus ut sint laboriosam accusamus libero excepturi quod rem impedit.</p>
-                <span className="border-t flex border-sky-400 text-xs justify-center pt-3 items-center gap-2"><Clock size={16}/> 14 de janeiro de 2024</span>
+                <span className="border-t flex border-sky-400 text-xs justify-center pt-3 items-center gap-2"><Clock size={16}/> {parseInt(String(Math.random()*21))} de janeiro de 2024</span>
             </div>
         </a>
     )

@@ -2,6 +2,7 @@ import { Home } from './pages/home/index'
 import { Institucional } from './pages/institucional/index'
 import { Planos } from './pages/planos/index'
 import { Ambulatorio } from './pages/ambulatorio/index'
+import { ComunicadosPage } from './pages/comunicados/index'
 import { Header } from './components/header'
 import { ModalMenu } from './components/modalMenu';
 import { Footer } from './components/footer'
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/ambulatorios",
     element: <Ambulatorio />
+  },
+  {
+    path:"/comunicados",
+    element: <ComunicadosPage/>
   }
 ]);
 
