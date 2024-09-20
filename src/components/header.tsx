@@ -13,7 +13,6 @@ export function Header({openMenuModal}:Header){
                     <a className="flex w-36 justify-center hover:font-bold max-mxl:hidden" href={`/institucional`}>INSTITUCIONAL</a><span className="text-zinc-500 max-mxl:hidden">|</span>
                     <a className="flex w-36 justify-center hover:font-bold max-mxl:hidden" href={`/ambulatorios`}>AMBULATÓRIO</a><span className="text-zinc-500 max-mxl:hidden">|</span>
                     <a className="flex w-24 justify-center hover:font-bold max-mxl:hidden" href={`/planos`}>PLANOS</a><span className="text-zinc-500 max-mxl:hidden">|</span>
-                    <a className="flex w-28 justify-center hover:font-bold max-mxl:hidden" href="">SERVIÇOS</a><span className="text-zinc-500 max-mxl:hidden">|</span>
                     <a className="flex w-36 justify-center hover:font-bold max-mxl:hidden" href={`/comunicados`}>COMUNICADOS</a><span className="text-zinc-500 max-mxl:hidden">|</span>
                     <a className="flex w-24 justify-center hover:font-bold max-mxl:hidden" href={`/contato`}>CONTATO</a><span className="text-zinc-500 max-mxl:hidden">|</span>
                     <a className="flex w-16 justify-center hover:font-bold max-mxl:hidden" href="https://www.gov.br/ans/pt-br" target="_blank">ANS</a>
