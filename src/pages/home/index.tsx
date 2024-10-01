@@ -9,7 +9,7 @@ export function Home(){
             <Carousel/>
             <div className="justify-center gap-x-20 gap-y-12 flex-wrap flex py-12 max-mxl:gap-28">
                 
-                <a href={`/`}><Cards img="assets/icone-planos.png">Planos</Cards></a>
+                <a href={`/planos`}><Cards img="assets/icone-planos.png">Planos</Cards></a>
                 <a href={`/ambulatorios`}><Cards img="assets/icone-ambulatorio.png">Ambulatórios</Cards></a>
                 <a href="#"><Cards img="assets/icone-servico-online.png">Serviços On-line</Cards></a>
                 <a href="#"><Cards img="assets/icone-guia-medico.png">Guia Médico</Cards></a>
