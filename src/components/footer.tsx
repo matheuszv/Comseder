@@ -18,9 +18,12 @@ export function Footer(){
                 <p className="text-center"><a href="#" className="hover:underline hover:text-sky-600">POLÍTICA DE PRIVACIDADE</a></p>
                 <p className="text-center text-xs text-zinc-400">Não armazenamos dados pessoais durante seu acesso ao nosso site.</p>
             </div>
-            <div className="text-white flex justify-center text-sm">
-                <p>
+            <div className="text-white flex justify-center items-center text-sm flex-col gap-4">
+                <p className="text-xs">
                     Icones criados por <a href="https://www.flaticon.com/authors/freepik" className="hover:underline hover:text-sky-600 font-bold">Freepik</a> em <a href="www.flaticon.com" className="hover:underline hover:text-sky-600 font-bold">flaticon.com</a>
+                </p>
+                <p className="text-base border-t border-sky-300 px-16 pt-4 max-mxl:px-6">
+                    Desenvolvido com ♥ por <a href="#" className="font-bold hover:underline">Matheus Vinagre</a>
                 </p>
             </div>
         </div>
