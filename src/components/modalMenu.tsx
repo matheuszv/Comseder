@@ -14,7 +14,7 @@ export function ModalMenu({closeMenuModal}: ModalMenu){
                     <a className="hover:font-bold" href={`/ambulatorios`}>AMBULATÓRIO</a>
                     <a className="hover:font-bold" href={`/planos`}>PLANOS</a>
                     <a className="hover:font-bold" href={`/comunicados`}>COMUNICADOS</a>
-                    <a className="hover:font-bold" href="">ANS</a>
+                    <a className="hover:font-bold" href="https://www.gov.br/ans/pt-br">ANS</a>
                     
                 </div>
             </div>

@@ -21,13 +21,27 @@ export function Planos(){
                     <Carousel handleModal={handleModal}/>
                 </div>
                 <div className="flex-wrap gap-8 justify-center hidden max-mxl:flex">
-                    <Cards img="assets/icone-antigo.png">ANTIGO</Cards>
-                    <Cards img="assets/icone-executivo.png">EXECUTIVO I</Cards>
-                    <Cards  img="assets/icone-executivo-I.png">EXECUTIVO II</Cards>
-                    <Cards img="assets/icone-estrela-cadente.png">ESPECIAL I</Cards>
-                    <Cards img="assets/icone-estrela.png">ESPECIAL II</Cards>
-                    <Cards img="assets/icone-distintivo.png">REFERÊNCIA I</Cards>
-                    <Cards img="assets/icone-distintivo-I.png">REFERÊNCIA II</Cards>
+                    <p onClick={handleModal}>
+                        <Cards img="assets/icone-antigo.png">ANTIGO</Cards>
+                    </p>
+                    <p onClick={handleModal}>    
+                        <Cards img="assets/icone-executivo.png">EXECUTIVO I</Cards>
+                    </p>
+                    <p onClick={handleModal}>
+                        <Cards img="assets/icone-executivo-I.png">EXECUTIVO II</Cards>
+                    </p>
+                    <p onClick={handleModal}>
+                        <Cards img="assets/icone-estrela-cadente.png">ESPECIAL I</Cards>
+                    </p>
+                    <p onClick={handleModal}>
+                        <Cards img="assets/icone-estrela.png">ESPECIAL II</Cards>
+                    </p>
+                    <p onClick={handleModal}>
+                        <Cards img="assets/icone-distintivo.png">REFERÊNCIA I</Cards>
+                    </p>
+                    <p onClick={handleModal}>
+                        <Cards img="assets/icone-distintivo-I.png">REFERÊNCIA II</Cards>
+                    </p>
                 </div>
                 <div className="flex bg-white mb-10 rounded-3xl shadow-xl flex-col px-20 py-8 gap-8 max-mxl:px-8">
                     <h2 className="text-sky-900 font-bold text-lg text-center pt-2">Informações úteis</h2>
