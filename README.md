@@ -2,7 +2,7 @@
 Bem-vindo ao <strong>COMSEDER</strong>, um website institucional de plano de saúde criado para oferecer uma plataforma moderna e intuitiva de serviços de saúde. Este projeto foi desenvolvido utilizando as mais recentes tecnologias web para entregar uma experiência responsiva e fluida.
 
  <h2>🚀 Demonstração Online</h2>
-    <p>Confira a versão online do projeto aqui: <a href="comseder--seven.vercel.app">COMSEDER</a></p>
+    <p>Confira a versão online do projeto aqui: <a href="www.comseder--seven.vercel.app">COMSEDER</a></p>
     <blockquote><em>comseder--seven.vercel.app</em></blockquote>
 
 <h2>📚 Tabela de Conteúdos</h2>
